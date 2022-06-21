@@ -155,13 +155,13 @@ section {
   height: 240px;
   object-fit: cover;
   margin-top: 40px;
-  margin-left: 80px;
+  margin-left: 100px;
 }
 
 .social-media .icon {
   color: #1e293b;
   display: block;
-  margin: 40px 20px 0 40px;
+  margin: 40px 40px 0 40px;
   transition: color .3s ease;
 }
 
