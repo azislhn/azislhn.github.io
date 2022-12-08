@@ -101,7 +101,6 @@ small {
 
 main {
   max-width: 1200px;
-  min-height: 100vh;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -113,14 +112,13 @@ section {
   min-height: 80vh;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .container {
   display: grid;
   gap: 20px;
-}
-
-#hero h2 {
-  transform: translateY(-200px);
-  transition: 1s ease-in-out;
 }
 
 /* For mobile phones: */
