@@ -36,3 +36,11 @@ window.onscroll = () => {
     }
   });
 }
+
+function clock() {
+  let time = new Date()
+  time = time.toUTCString()
+
+  $('#timer').html("<small>"+time+"</small>")
+  setTimeout(clock, 1000)
+}

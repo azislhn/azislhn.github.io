@@ -60,6 +60,12 @@ small {
   line-height: 1.25rem; /* 20px */
 }
 
+#timer {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+}
+
 #sun {
   background-color: #0f172a;
   transform: rotate(-45deg) translate(-50px);
@@ -128,6 +134,10 @@ section {
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
+  #timer {
+    left: 25px;
+    top: 30px;
+  }
   .mode-toggler {
     top: -10px;
     right: -10px;
