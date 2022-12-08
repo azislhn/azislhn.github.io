@@ -1,4 +1,13 @@
 $(document).ready(() => {
+  $('.mode-toggler').hover(() => {
+    $('.mode-toggler i').toggleClass('fa-lg')
+  })
+
+  $('.mode-toggler').click(() => {
+    $('#sun').toggleClass('hide')
+    $('#moon').toggleClass('hide')
+  })
+
   document.querySelectorAll(".nav-link").forEach((link) => {
     $(link).on("click", () => {
       const offsetTop = document.getElementById(link.dataset.page).offsetTop;
@@ -26,5 +35,4 @@ window.onscroll = () => {
       link.classList.add("active");
     }
   });
-
 }
