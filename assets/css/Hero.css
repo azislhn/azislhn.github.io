@@ -1,0 +1,19 @@
+figure {
+  position: relative;
+}
+.avatar {
+  width: 100%;
+  max-width: 240px;
+  object-fit: cover;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+figcaption {
+  color: gray;
+  opacity: 0;
+  transition: 0.2s;
+}
+figcaption.show {
+  opacity: 1;
+}
